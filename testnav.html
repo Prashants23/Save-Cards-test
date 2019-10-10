@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/test.css">
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <img class="logo" src="Images/logo.png" title="My Cards">
+    <a href="#home" class="active">ABOUT</a>
+    <a href="#contact">CONTACT</a>
+    <div class="dropdown">
+      <button class="dropbtn">MY CARDS
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Credit.html">Credit Cards</a>
+        <a href="#">Debit Cards</a>
+        <a href="#">Other</a>
+      </div>
+    </div>
+    <a href="#about">HOME</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <div id="myVideo">
+
+
+    <video autoplay muted loop>
+      <source src="Images/t.webm" type="video/mp4">
+      <p> Save Your Cards Here</p>
+    </video>
+  </div>
+  <div class="textbox">
+    <p>This is where you save your <br> cards</p>
+    <br>
+    <hr>
+    <br>
+    <p1>This is a test website, work is in <br> progress </p1>
+
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+body {
+  font: 16px "Helvetica Neue", Helvetica, sans-serif;
+  background: rgb(127, 154, 194);
+  color: #666;
+}
+a {
+  color: #000;
+}
+.header {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px 0;
+  font-weight: 200;
+}
+  .title {
+    font-size: 50px;
+    color: #333;
+  }
+
+.subtitle {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .body {
+    min-height: 32px;
+  }
+
+.panel {
+  width: 600px;
+  margin: 0 auto;
+  /* margin-bottom: 50px; */
+  text-align: center;
+}
+
+.card {
+  font: 16px/1.5 'Helvetica Neue', Helvetica, sans-serif;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 425px;
+  height: 270px;
+  text-align: left;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: rgb(41, 22, 22);
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: url("../Images/ps8.jpg") no-repeat 0 0 #60a8b9;
+}
+
+.front {
+  font-size: 16px;
+  font-family: 'Source Code Pro';
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.6);
+}
+.CardType{
+
+  font-size: 30px;
+    padding: 20px 0 15px;
+    text-align: center;
+}
+
+ .number{
+    font-size: 30px;
+    padding: 15px 0 15px;
+    text-align: center;
+  }
+
+  .expiry-date {
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .owner {
+    text-align: left;
+  }
+
+  .logo {
+    position: absolute;
+    right: 20px;
+    bottom: 4px;
+    width: 75px;
+  height: 70px;
+  }
+  
+
+  .back {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+  }
+  .strip {
+    background: #000;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .signature {
+    float: left;
+    width: 65%;
+    height: 40px;
+    margin-left: 10px;
+    background: #999;
+  }
+
+  .ccv {
+    float: left;
+    margin-top: 5px;
+    padding: 7px;
+    background: #fff;
+    color: #111;
+    line-height: 1;
+  }
+
+  
